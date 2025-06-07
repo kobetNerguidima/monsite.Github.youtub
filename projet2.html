@@ -1,0 +1,183 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UNIVERSITE</title>
+</head>
+<style>
+    body{
+        background-image: url('image estm/1583801271990.jpeg');
+    }
+    
+    header{
+        grid-area: header;
+        background-color: aqua;
+        color: yellowgreen;
+        padding: 1rem;
+        text-align: center;
+    }
+    body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f0f2f5; 
+}
+
+.navbar {
+    background-color: #2b7a8d; 
+    color: white;
+    padding: 0;
+    height: 50px;
+}
+
+.nav-links {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+    height: 60px; 
+}
+
+
+
+.nav-link {
+    display: flex;
+    align-items: center;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px; 
+    height: 100%;
+    transition: background-color 0.3s ease;
+    white-space: nowrap; 
+}
+
+.nav-link:hover {
+    background-color: #3b91a5; 
+}
+img{
+    width: 100%;
+}
+/* Ce sont les styles déjà définis dans votre fichier style.css pour les pages étudiant/enseignant.
+   Ils sont inclus ici pour rappel, mais vous devriez les avoir dans un seul fichier style.css */
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header {
+    background-color: #0056b3; /* Bleu de l'université */
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header h1 {
+    margin-bottom: 0.5rem;
+}
+
+header nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header nav ul li {
+    margin: 0 15px;
+}
+
+header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+}
+
+header nav ul li a:hover {
+    background-color: #004085;
+    border-radius: 5px;
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.content-section {
+    margin-bottom: 40px;
+    padding-top: 20px;
+}
+
+.section-title {
+    color: #0056b3;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 2.2em;
+    border-bottom: 2px solid #eee;
+    padding-bottom: 10px;
+}
+
+/* Note: La page contact n'utilise pas de .card-container/.card pour les sections générales,
+   mais les styles pour ces éléments seraient déjà dans style.css si vous les utilisez ailleurs.
+   Les styles spécifiques à la page contact sont dans le bloc <style> du HTML ci-dessus. */
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+    background-color: #333;
+    color: #fff;
+    font-size: 0.9em;
+}
+
+/* Styles Responsifs */
+@media (max-width: 768px) {
+    header nav ul li {
+        margin: 5px 10px;
+    }
+    .section-title {
+        font-size: 1.8em;
+    }
+}
+</style>
+<body>
+    
+    
+    <nav class="navbar">
+        <ul class="nav-links">
+                <li><a href="index.html">Accueil</a></li>
+                <a href="#" class="nav-link"><i class="fas fa-home"></i></a>
+            </li>
+            
+             <li class="nav-item has-dropdown">
+                <a href="info.html">Administration</a> 
+            </li>
+            <li class="nav-item has-dropdown">
+                <a href="etudiant.html" class="nav-link">Etudiant <i class="fas fa-chevron-down"></i></a>
+            </li>
+            <li class="nav-item has-dropdown">
+                <a href="enseignant.html" class="nav-link">Enseignant<i class="fas fa-chevron-down"></i></a>
+            </li>
+            
+            <li class="nav-item">
+                <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            
+    
+</body>
+</html>
